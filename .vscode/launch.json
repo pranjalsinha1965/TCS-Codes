@@ -1,0 +1,52 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "RemoveBrackets",
+      "request": "launch",
+      "mainClass": "String.RemoveBrackets",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "ReverseString",
+      "request": "launch",
+      "mainClass": "String.ReverseString",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "RemoveCharacters",
+      "request": "launch",
+      "mainClass": "String.RemoveCharacters",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "ASCIICharacter",
+      "request": "launch",
+      "mainClass": "String.ASCIICharacter",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/KIIT/Desktop/TCS-Codes/SortingProblems",
+      "program": "c:/Users/KIIT/Desktop/TCS-Codes/SortingProblems/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
