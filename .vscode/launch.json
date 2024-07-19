@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SumOfNumbers",
+      "request": "launch",
+      "mainClass": "String.SumOfNumbers",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "RemoveBrackets",
       "request": "launch",
       "mainClass": "String.RemoveBrackets",
