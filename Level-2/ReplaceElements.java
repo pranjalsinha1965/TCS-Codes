@@ -1,5 +1,5 @@
 import java.util.*;
-public class ReplacElements {
+public class ReplaceElements {
   public static void main(String args[]) {
     int n = 6;
     int arr[] = {20,15,26,2,98,6};

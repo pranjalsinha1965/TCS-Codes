@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SearchElement",
+      "request": "launch",
+      "mainClass": "SearchElement",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "ReplacElements",
       "request": "launch",
       "mainClass": "ReplacElements",
