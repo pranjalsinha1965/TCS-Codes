@@ -7,6 +7,7 @@ static void insertatbegin(int[] arr,int n,int value)
     }
     arr[0]=value;
 }
+
 public static void main(String args[])
 {
     int n=8;
@@ -20,11 +21,11 @@ public static void main(String args[])
     System.out.println();
     insertatbegin(arr,n,value);
     System.out.println("After inserting the value at beginning:");
-    for(int i=0;i<=n;i++)
+    for(int i=0;i<=n;i++)    
     {
         System.out.print(arr[i]+" ");
     }
     System.out.println();
-    
 }
 }
+  

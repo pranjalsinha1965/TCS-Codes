@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ReplacElements",
+      "request": "launch",
+      "mainClass": "ReplacElements",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "MainRemoveDuplicates",
+      "request": "launch",
+      "mainClass": "MainRemoveDuplicates",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "LeapYear",
+      "request": "launch",
+      "mainClass": "LeapYear",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "Array_Insertions",
+      "request": "launch",
+      "mainClass": "Array_Insertions",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "VowelsConsonant",
+      "request": "launch",
+      "mainClass": "String.VowelsConsonant",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "SumOfNumbers",
       "request": "launch",
       "mainClass": "String.SumOfNumbers",
