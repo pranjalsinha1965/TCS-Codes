@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ExpressSumAsTwo",
+      "request": "launch",
+      "mainClass": "ExpressSumAsTwo",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "SearchElement",
       "request": "launch",
       "mainClass": "SearchElement",
