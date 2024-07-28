@@ -1,5 +1,4 @@
 public class NonRepeatingElements {
-    // Function to find non-repeating elements in the array
     static void findNonRepeatingElement(int nums[]) {
         boolean chk;
         for (int i = 0; i < nums.length; i++) {
@@ -13,7 +12,6 @@ public class NonRepeatingElements {
             if (!chk) System.out.print(nums[i] + " ");
         }
     }
-
     public static void main(String[] args) {
         int nums[] = {1, 2, -1, 1, 3, 1};
         System.out.println("Non-repeating numbers are: ");

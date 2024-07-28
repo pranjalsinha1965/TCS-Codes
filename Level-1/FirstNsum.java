@@ -12,4 +12,4 @@ public class FirstNsum{
     }
     System.out.println("The sum of the first " + n + " numbers is: " + sum);
   }
-}
+} 

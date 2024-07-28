@@ -8,7 +8,6 @@ public class LCM {
             }
           }
           int lcm = (a * b) / gcd;
-          System.out.print("The LCM of the two given numbers is "+lcm);
-      
-        }
-      }
+          System.out.print("The LCM of the two given numbers is "+lcm);  
+  }
+}

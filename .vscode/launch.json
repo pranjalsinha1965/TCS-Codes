@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NonRepeatingElements",
+      "request": "launch",
+      "mainClass": "NonRepeatingElements",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "LCM",
+      "request": "launch",
+      "mainClass": "LCM",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "FirstNsum",
+      "request": "launch",
+      "mainClass": "FirstNsum",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "EvenOrOdd",
+      "request": "launch",
+      "mainClass": "EvenOrOdd",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "RemoveSpaces",
+      "request": "launch",
+      "mainClass": "String.RemoveSpaces",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "ExpressSumAsTwo",
       "request": "launch",
       "mainClass": "ExpressSumAsTwo",

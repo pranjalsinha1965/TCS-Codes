@@ -12,5 +12,4 @@ public class Average_Array {
         double average = sum / n;
         System.out.println("The average is: " + average);
     }
-    
 }
