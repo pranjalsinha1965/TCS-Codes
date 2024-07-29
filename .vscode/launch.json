@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TestMedian",
+      "request": "launch",
+      "mainClass": "TestMedian",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "Fibonacci",
+      "request": "launch",
+      "mainClass": "Fibonacci",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "SumGPSeries",
+      "request": "launch",
+      "mainClass": "SumGPSeries",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "Power",
+      "request": "launch",
+      "mainClass": "Power",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "findNonRepeatingElements",
+      "request": "launch",
+      "mainClass": "findNonRepeatingElements",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "NonRepeatingElements",
       "request": "launch",
       "mainClass": "NonRepeatingElements",

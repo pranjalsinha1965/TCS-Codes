@@ -1,4 +1,4 @@
-public class NonRepeatingElements {
+public class findNonRepeatingElements {
     static void findNonRepeatingElement(int nums[]) {
         boolean chk;
         for (int i = 0; i < nums.length; i++) {

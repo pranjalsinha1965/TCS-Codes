@@ -8,9 +8,9 @@ public class SumGPSeries{
     return sum;
   }
   public static void main(String args[]) {
-    double a = 2.0; // First term of G.P.
-    double r = 1.5; // common ratio of G.P.
-    int n = 4; // Number of terms of G.P.
+    double a = 2.0; 
+    double r = 1.5; 
+    int n = 4; 
     System.out.println("Sum of GP Series is "+SumofGP(a, r, n));
   }
 }
