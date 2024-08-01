@@ -12,4 +12,4 @@ public class factorial {
        int result = factorial(X);
        System.out.println("The factorial of " + X + " is " + result);
     }
- }   
+ }      

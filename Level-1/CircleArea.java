@@ -9,3 +9,4 @@ public class CircleArea {
         System.out.println("The area of the circle with radius " + radius + " is " + ans);
     }
 }
+

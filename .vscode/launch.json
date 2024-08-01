@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CircleArea",
+      "request": "launch",
+      "mainClass": "CircleArea",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "TestMedian",
       "request": "launch",
       "mainClass": "TestMedian",
