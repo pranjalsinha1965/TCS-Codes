@@ -8,13 +8,9 @@ public class PalindromicNumberRange {
             reverse = reverse*10 + temp%10;
             temp = temp/10;
         }
-             
-        // If n and reverse are same,
-        // then n is palindrome
        if(n==reverse)return true;
        return false;
     }
-   
     public static void main(String args[])
     {
         int min = 100;
@@ -24,7 +20,6 @@ public class PalindromicNumberRange {
                 System.out.print(i + " ");
             }
         }
- 
     }
 }    
 

@@ -21,5 +21,4 @@ class Test {
         int n = arr.length;
         getElements(arr, n);
     }
-    
 }

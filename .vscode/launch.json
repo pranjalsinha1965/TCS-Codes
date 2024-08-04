@@ -3,6 +3,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PositiveOrNegative",
+      "request": "launch",
+      "mainClass": "PositiveOrNegative",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "Average_Array",
+      "request": "launch",
+      "mainClass": "Average_Array",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "PalindromicNumberRange",
+      "request": "launch",
+      "mainClass": "PalindromicNumberRange",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "Test",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "RotateArray",
+      "request": "launch",
+      "mainClass": "RotateArray",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "AddingFractions",
+      "request": "launch",
+      "mainClass": "AddingFractions",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "FindingEquilibrium",
+      "request": "launch",
+      "mainClass": "FindingEquilibrium",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "CircleArea",
       "request": "launch",
       "mainClass": "CircleArea",

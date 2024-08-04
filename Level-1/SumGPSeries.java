@@ -14,3 +14,4 @@ public class SumGPSeries{
     System.out.println("Sum of GP Series is "+SumofGP(a, r, n));
   }
 }
+

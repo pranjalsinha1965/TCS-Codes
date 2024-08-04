@@ -1,7 +1,6 @@
 class FindingEquilibrium {
   public static int findEquilibriumIdx(int nums[], int n) {
     int leftSum, rightSum;
- 
     for (int i = 0; i < n; i++) {
       leftSum = 0;
       for (int j = 0; j < i; j++) {
