@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FindRoot",
+      "request": "launch",
+      "mainClass": "FindRoot",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "PositiveOrNegative",
       "request": "launch",
       "mainClass": "PositiveOrNegative",
