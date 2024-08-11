@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PalindromeChecker",
+      "request": "launch",
+      "mainClass": "String.PalindromeChecker",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "RemoveVowels",
+      "request": "launch",
+      "mainClass": "String.RemoveVowels",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "FindRoot",
       "request": "launch",
       "mainClass": "FindRoot",

@@ -1,5 +1,4 @@
 package String;
-
 public class PalindromeChecker {
     static boolean palindrome(int i, String s)
     {

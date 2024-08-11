@@ -1,19 +1,14 @@
 package String;
 public class RemoveVowels{
     static int removeSpaces(char[] str) {
-
-        int count = 0; // to track spaces seen so far
-    
+        int count = 0;
         for (int i = 0; i < str.length; i++)
           if (str[i] != ' ') {
             str[count] = str[i];
-            count++; // increment count
+            count++;
           }
-    
         return count;
       }
-    
-      // Driver code
       public static void main(String[] args) {
         char[] str = "Take you forward ".toCharArray();
         int count = removeSpaces(str);
