@@ -1,5 +1,4 @@
 public class ExpressSumAsTwo {
-
     static boolean prime(int n) {
         if (n <= 1)
             return false;
@@ -10,7 +9,6 @@ public class ExpressSumAsTwo {
         }
         return true;
     }
-
     static boolean isPrime(int n) {
         if (prime(n) && prime(n - 2)) {
             return true;
@@ -18,7 +16,6 @@ public class ExpressSumAsTwo {
             return false;
         }
     }
-
     public static void main(String[] args) {
         int n = 19;
         if (isPrime(n)) {

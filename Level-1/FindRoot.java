@@ -9,7 +9,7 @@ public class FindRoot {
         int d = b * b - 4 * a * c;
         double sqrt_val = Math.sqrt(Math.abs(d));
  
-        if (d > 0) {
+        if (d > 0) {    
             System.out.println("Roots are real and different ");
            
             double root1 = (double)(-b + sqrt_val) / (2 * a);
