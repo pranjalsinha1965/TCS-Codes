@@ -12,3 +12,4 @@ public class Average_Array {
         System.out.println("The average is: " + average);
     }
 }
+                        
