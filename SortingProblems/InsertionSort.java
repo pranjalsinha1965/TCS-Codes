@@ -1,7 +1,4 @@
 package SortingProblems;
-
-// InsertionSort.java
-
 public class InsertionSort {
 
     public static void insertionSort(int[] arr) {
