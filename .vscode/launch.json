@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "rough",
+      "request": "launch",
+      "mainClass": "rough",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "InsertionSort",
+      "request": "launch",
+      "mainClass": "SortingProblems.InsertionSort",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "PalindromeChecker",
       "request": "launch",
       "mainClass": "String.PalindromeChecker",
