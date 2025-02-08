@@ -12,7 +12,6 @@ static private void MinMax(int n)
 		maxi = Math.max(maxi,d);
 		n = n / 10;
 	}
-
 	System.out.println("The minimum number is: "+mini);
 	System.out.print("The maximum number is: "+maxi);
 }
