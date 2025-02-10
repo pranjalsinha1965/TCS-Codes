@@ -8,51 +8,34 @@ public class QuickSort {
 
     public static void main(String[] args) {
         List<Integer> arr = new ArrayList<>(Arrays.asList(4, 6, 2, 5, 7, 9, 1, 3));
-        int n = arr.size();
 
-        System.out.println("Before Using Quick Sort:");
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr.get(i) + " ");
-        }
-        System.out.println();
-
-        QuickSort.quickSort(arr, 0, n - 1);
-
-        System.out.println("After Quick Sort:");
-        for (int i = 0; i < n; i++) {
-            System.out.print(arr.get(i) + " ");
-        }
-        System.out.println();
+        System.out.println("Before Quick Sort: " + arr);
+        quickSort(arr, 0, arr.size() - 1);
+        System.out.println("After Quick Sort: " + arr);
     }
 
     public static void quickSort(List<Integer> arr, int low, int high) {
         if (low < high) {
             int pi = partition(arr, low, high);
-
             quickSort(arr, low, pi - 1);
             quickSort(arr, pi + 1, high);
         }
     }
 
     private static int partition(List<Integer> arr, int low, int high) {
-        int pivot = arr.get(high);
-        int i = (low - 1); // index of smaller element
+        int pivot = arr.get(high), i = low;
         for (int j = low; j < high; j++) {
             if (arr.get(j) < pivot) {
-                i++;
-
-                // swap arr[i] and arr[j]
-                int temp = arr.get(i);
-                arr.set(i, arr.get(j));
-                arr.set(j, temp);
+                swap(arr, i++, j);
             }
         }
+        swap(arr, i, high);
+        return i;
+    }
 
-        // swap arr[i + 1] and arr[high] (or pivot)
-        int temp = arr.get(i + 1);
-        arr.set(i + 1, arr.get(high));
-        arr.set(high, temp);
-
-        return i + 1;
+    private static void swap(List<Integer> arr, int i, int j) {
+        int temp = arr.get(i);
+        arr.set(i, arr.get(j));
+        arr.set(j, temp);
     }
 }

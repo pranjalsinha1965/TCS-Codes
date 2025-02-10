@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MergeSort",
+      "request": "launch",
+      "mainClass": "SortingProblems.MergeSort",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "factorial",
       "request": "launch",
       "mainClass": "factorial",
