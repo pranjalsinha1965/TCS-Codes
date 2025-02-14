@@ -17,3 +17,4 @@ public class RemoveCharacters   {
         }
       }
       
+// Remove special characters from the string "take12% *&u ^$#forward"

@@ -55,3 +55,37 @@ public class ReverseString {
 //         System.out.println("The reversed string is: " + str1);
 //     }
 // }
+
+// public class ReverseString {
+//     public static void main(String[] args) {
+//         String str = "Hello";
+//         String reversed = "";
+//         for (int i = str.length() - 1; i >= 0; i--) {
+//             reversed += str.charAt(i);
+//         }
+//         System.out.println("Reversed (Appending): " + reversed);
+//     }
+// }
+
+// public class ReverseString {
+//     public static void main(String[] args) {
+//         String str = "Hello";
+//         StringBuilder sb = new StringBuilder(str);
+//         String reversed = sb.reverse().toString();
+//         System.out.println("Reversed (StringBuilder): " + reversed);
+//     }
+// }
+
+// public class ReverseString {
+//     public static void main(String[] args) {
+//         String str = "Hello";
+//         char[] charArray = str.toCharArray();
+//         for (int i = 0, j = charArray.length - 1; i < j; i++, j--) {
+//             char temp = charArray[i];
+//             charArray[i] = charArray[j];
+//             charArray[j] = temp;
+//         }
+//         String reversed = new String(charArray);
+//         System.out.println("Reversed (For Loop): " + reversed);
+//     }
+// }

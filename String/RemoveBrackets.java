@@ -8,7 +8,7 @@ public class RemoveBrackets {
      }
      return answer.toString();
   }
-  public static void main(String[] args) {
+   public static void main(String[] args) {
     String input1 = "a+((b-c)+d)";
     String input2 = "(((a-b))+c)";
     System.out.println("Original String: "+input1);
