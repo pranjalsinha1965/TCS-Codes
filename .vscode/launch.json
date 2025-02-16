@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "stringReversal",
+      "request": "launch",
+      "mainClass": "stringReversal",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "Rough",
+      "request": "launch",
+      "mainClass": "Rough",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "ASCIICharacter",
       "request": "launch",
       "mainClass": "ASCIICharacter",
