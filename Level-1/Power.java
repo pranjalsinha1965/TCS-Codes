@@ -8,3 +8,4 @@ public class Power {
             System.out.println(x + " raised to the power " + n + " is " + ans);
         }
     }
+

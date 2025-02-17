@@ -21,3 +21,4 @@ public class SumOfNumbers {
         System.out.println(findSum(str));
  }
 }
+

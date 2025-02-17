@@ -15,3 +15,4 @@ public class RemoveVowels{
         System.out.println(String.valueOf(str).subSequence(0, count));
       }
 }
+

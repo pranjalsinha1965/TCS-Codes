@@ -18,7 +18,6 @@ public class Fibonacci {
   }
 }
 
-
 // public class Fibonacci {
 
 //   public static void printFibonacci(int n) {
