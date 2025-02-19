@@ -1,18 +1,21 @@
 public class factorial {
-    static int factorial(int X) {
-       int ans = 1;
-       for (int i = 1; i <= X; i++) {
-          ans = ans * i;
+   static int isFactorial(int X) {
+       if (X < 0) {
+           throw new IllegalArgumentException("Factorial is not defined for negative numbers.");
        }
-       return ans;
-    }
-    public static void main(String[] args) {
- 
+       if (X == 0 || X == 1) {
+           return 1;
+       }
+       return X * isFactorial(X - 1); // Recursive approach
+   }
+
+   public static void main(String[] args) {
        int X = 5;
-       int result = factorial(X);
+       int result = isFactorial(X);
        System.out.println("The factorial of " + X + " is " + result);
-    }
- }      
+   }
+}
+
 
 //  public class FactorialCalculator {
 
@@ -27,4 +30,4 @@ public class factorial {
 //        System.out.println("The factorial of " + x + " is " + result);
 //    }
 // }
-// `
+// 
