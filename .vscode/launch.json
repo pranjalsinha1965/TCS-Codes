@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Permutations",
+      "request": "launch",
+      "mainClass": "Permutations",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "ReplaceElements",
       "request": "launch",
       "mainClass": "ReplaceElements",
