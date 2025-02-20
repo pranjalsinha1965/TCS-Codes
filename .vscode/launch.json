@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "problemTwo",
+      "request": "launch",
+      "mainClass": "problemTwo",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "QuickSort",
+      "request": "launch",
+      "mainClass": "SortingProblems.QuickSort",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "Permutations",
       "request": "launch",
       "mainClass": "Permutations",

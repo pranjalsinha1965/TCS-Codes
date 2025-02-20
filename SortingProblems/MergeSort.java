@@ -4,14 +4,11 @@ public class MergeSort {
     private static void merge(int[] arr, int low, int mid, int high) {
         int[] temp = new int[high - low + 1]; 
         int left = low, right = mid + 1, k = 0;
-        // Merge elements in sorted order
         while (left <= mid && right <= high) {
             temp[k++] = (arr[left] <= arr[right]) ? arr[left++] : arr[right++];
         }
-        // Copy remaining elements from the left and right halves
         while (left <= mid) temp[k++] = arr[left++];
         while (right <= high) temp[k++] = arr[right++];
-        // Copy sorted elements back to the original array
         System.arraycopy(temp, 0, arr, low, temp.length);
     }
     public static void mergeSort(int[] arr, int low, int high) {
