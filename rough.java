@@ -1,28 +1,16 @@
 public class rough{
-    public static void insert(int[] arr)
-    {
-        int n = arr.length;
-        for(int i=1 ; i<n; i++)
-        {
-            int key = arr[i];
-            int j = i - 1;
-            while (j >= 0 && arr[j] > key)
-            {
-                arr[j + 1] = arr[j];
-                j = j - 1;
+
+    public static void main(String args[]) {
+        int n = 5;
+        int arr[][] = {{1, 2}, {2, 1}, {3, 4}, {4, 5}, {5, 4}};
+        System.out.println("The symmetric pairs are: ");
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j][0] == arr[i][1] && arr[j][1] == arr[i][0]) {
+                    System.out.print("(" + arr[i][1] + " " + arr[i][0] + ")" + " ");
+                    break;
+                }
             }
-            arr[j + 1] = key;
         }
-    }
-    public static void main(String[] args)
-    {
-        int arr[] = {12, 11, 13, 5, 6};
-        insert(arr);
-        System.out.println("sorted arr: ");
-        for(int i : arr)
-        {
-            System.out.println(i + " ");
-        }
-        System.out.println();
     }
 }

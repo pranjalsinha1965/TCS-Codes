@@ -1,28 +1,79 @@
 package SortingProblems;
-import java.util.Arrays;
-public class MergeSort {
-    private static void merge(int[] arr, int low, int mid, int high) {
-        int[] temp = new int[high - low + 1]; 
-        int left = low, right = mid + 1, k = 0;
-        while (left <= mid && right <= high) {
-            temp[k++] = (arr[left] <= arr[right]) ? arr[left++] : arr[right++];
+// import java.util.Arrays;
+class MergeSort{
+    // Function to merge two halves of the array
+    static void merge(int[] arr, int left, int mid, int right) {
+        int n1 = mid - left + 1;
+        int n2 = right - mid;
+
+        // Temporary arrays
+        int[] leftArray = new int[n1];
+        int[] rightArray = new int[n2];
+
+        // Copy data to temp arrays
+        for (int i = 0; i < n1; i++)
+            leftArray[i] = arr[left + i];
+        for (int i = 0; i < n2; i++)
+            rightArray[i] = arr[mid + 1 + i];
+
+        // Merge the temp arrays
+        int i = 0, j = 0, k = left;
+        while (i < n1 && j < n2) {
+            if (leftArray[i] <= rightArray[j]) {
+                arr[k] = leftArray[i];
+                i++;
+            } else {
+                arr[k] = rightArray[j];
+                j++;
+            }
+            k++;
         }
-        while (left <= mid) temp[k++] = arr[left++];
-        while (right <= high) temp[k++] = arr[right++];
-        System.arraycopy(temp, 0, arr, low, temp.length);
-    }
-    public static void mergeSort(int[] arr, int low, int high) {
-        if (low < high) {
-            int mid = (low + high) / 2;
-            mergeSort(arr, low, mid);
-            mergeSort(arr, mid + 1, high);
-            merge(arr, low, mid, high);
+
+        // Copy remaining elements of leftArray
+        while (i < n1) {
+            arr[k] = leftArray[i];
+            i++;
+            k++;
+        }
+
+        // Copy remaining elements of rightArray
+        while (j < n2) {
+            arr[k] = rightArray[j];
+            j++;
+            k++;
         }
     }
+
+    // Recursive function to perform merge sort
+    static void mergeSort(int[] arr, int left, int right) {
+        if (left < right) {
+            int mid = left + (right - left) / 2;
+
+            // Sort first and second halves
+            mergeSort(arr, left, mid);
+            mergeSort(arr, mid + 1, right);
+
+            // Merge the sorted halves
+            merge(arr, left, mid, right);
+        }
+    }
+
+    // Driver code to test merge sort
     public static void main(String[] args) {
-        int[] arr = {9, 4, 7, 6, 3, 1, 5};
-        System.out.println("Before sorting: " + Arrays.toString(arr));
-        mergeSort(arr, 0, arr.length - 1);
-        System.out.println("After sorting: " + Arrays.toString(arr));
+        int[] arr = {12, 11, 13, 5, 6, 7};
+        int n = arr.length;
+
+        System.out.println("Original array:");
+        for (int num : arr)
+            System.out.print(num + " ");
+        System.out.println();
+
+        mergeSort(arr, 0, n - 1);
+
+        System.out.println("Sorted array:");
+        for (int num : arr)
+            System.out.print(num + " ");
+        System.out.println();
     }
 }
+
