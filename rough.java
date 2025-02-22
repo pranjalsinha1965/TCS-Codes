@@ -1,16 +1,18 @@
-public class rough{
-
-    public static void main(String args[]) {
-        int n = 5;
-        int arr[][] = {{1, 2}, {2, 1}, {3, 4}, {4, 5}, {5, 4}};
-        System.out.println("The symmetric pairs are: ");
-        for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++) {
-                if (arr[j][0] == arr[i][1] && arr[j][1] == arr[i][0]) {
-                    System.out.print("(" + arr[i][1] + " " + arr[i][0] + ")" + " ");
-                    break;
-                }
+public class rough {
+    static int removespaces(char[] str) {
+        int count = 0;
+        for (int i = 0; i < str.length; i++) {
+            if (str[i] != ' ') {
+                str[count] = str[i];
+                count++;
             }
         }
+        return count;  // Moved outside the loop
+    }
+
+    public static void main(String[] args) {
+        char[] str = "Take you forward".toCharArray();
+        int count = removespaces(str);  // Fixed method call (case-sensitive)
+        System.out.println(String.valueOf(str).substring(0, count));
     }
 }

@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class Fibonacci {
     // Iterative method to print Fibonacci series
     public static void printFibonacciIterative(int n) {
@@ -14,7 +13,6 @@ public class Fibonacci {
         }
         System.out.println();
     }
-
     // Corrected dynamic programming method for Fibonacci series
     public static int[] generateFibonacciDP(int n) {
         int[] fib = new int[n];
@@ -25,18 +23,14 @@ public class Fibonacci {
         }
         return fib;
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the nth term of Fibonacci series: ");
         int n = scanner.nextInt();
-
         printFibonacciIterative(n);
-
         System.out.println("Fibonacci series up to n:");
         int[] fibSeries = generateFibonacciDP(n);
         System.out.println(Arrays.toString(fibSeries));
-
         scanner.close();
     }
 }
