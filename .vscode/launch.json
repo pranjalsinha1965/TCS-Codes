@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AlphabeticNumerics",
+      "request": "launch",
+      "mainClass": "String.AlphabeticNumerics",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "alphbeticNumerics",
+      "request": "launch",
+      "mainClass": "String.alphbeticNumerics",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "alphbeticNumerics",
+      "request": "launch",
+      "mainClass": "alphbeticNumerics",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "SubArrayMaximumProduct",
+      "request": "launch",
+      "mainClass": "SubArrayMaximumProduct",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "problemTwo",
       "request": "launch",
       "mainClass": "problemTwo",
