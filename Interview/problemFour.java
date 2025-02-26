@@ -1,3 +1,4 @@
+package Interview;
 import java.util.Scanner;
 public class problemFour{
     public static void main(String[] args)

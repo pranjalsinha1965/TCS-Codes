@@ -1,22 +1,21 @@
-package Interview;
 import java.util.Scanner;
-
-public class Main {
-    // Efficient method using StringBuilder
-    static String reverseUsingStringBuilder(String str) {
+public class rough{
+    static String reverseUsingStringBuilder(String str)
+    {
         return new StringBuilder(str).reverse().toString();
     }
 
-    // More efficient loop method using StringBuilder
-    static String reverseUsingLoop(String str) {
-        StringBuilder reversedString     = new StringBuilder();
-        for (int i = str.length() - 1; i >= 0; i--) {
+    static String reverseUsingLoop(String str)
+    {
+        StringBuilder reversedString = new StringBuilder();
+        for(int i=str.length() - 1; i>=0; i--)
+        {
             reversedString.append(str.charAt(i));
         }
         return reversedString.toString();
     }
-
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your string: ");
         String inputString = scanner.nextLine();
