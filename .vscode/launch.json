@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RemoveSpaces",
+      "request": "launch",
+      "mainClass": "RemoveSpaces",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "FirNSum",
+      "request": "launch",
+      "mainClass": "FirNSum",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "AlphabeticNumerics",
       "request": "launch",
       "mainClass": "String.AlphabeticNumerics",

@@ -14,3 +14,4 @@ class AlphabeticNumerics {
         System.out.println("Highest alphabetic character: " + maxChar);
     }
 }
+     

@@ -1,0 +1,14 @@
+// How to learn codes for interviews ?
+
+// 1. Practice coding problems on platforms like leeetcode, codeforces, and hackerrank.
+// 2. Understand data structures and algorithms thoroughly.
+// 3. Read books like "Cracking the coding interview" and "Elements of programming interviews".
+// 4. Participate in coding competitions to improve problem solving skills.
+// 5. Review and analyse your solutions and learn from your mistakes.
+// 6. Join coding communities and forums to discuss problems and solutions with others as well.
+// 7. Practice mock interview with peers or use platform like Pramp or Interviewing to.
+// 8. Focus on time and space complexity of your solutions. 
+// 9. work on your communication skills to explain your thought processclearly during the interviews.
+// 10. Stay updated with the latest trends and technologies in the field of programming as well.
+// 11. Build projects to apply your coding skills in the real world and showcase your work to potential employers.
+// 12. Take breaks and stay positive to avoid burnout and maintain motivation.

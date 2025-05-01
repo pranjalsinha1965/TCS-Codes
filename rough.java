@@ -1,18 +1,19 @@
 public class rough{
     public static void main(String[] args)
     {
-        int n = 5;
-        if(remainder(n) == 0)
+        String str = "abcdefghijklmnopqrstuvwxyz";
+        char maxChar = ' ';
+        for(int i=0; i<str.length(); i++)
         {
-            System.out.println(n + " is even ");
+            char currentChar = str.charAt(i);
+            if((currentChar >= 'A' && currentChar <= 'Z') || (currentChar >= 'a' && currentChar >= 'z'))
+            {
+                if(currentChar > maxChar)
+                {
+                    maxChar = currentChar;
+                }
+            }
         }
-        else
-        {
-            System.out.println(n + " is odd ");
-        }
-    }
-    public static int remainder(int n)
-    {
-        return (n%2);
+        System.out.println("Highest alphabetic characters: " + maxChar);
     }
 }
