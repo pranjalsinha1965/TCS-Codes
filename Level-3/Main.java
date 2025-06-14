@@ -1,7 +1,5 @@
 import java.util.Arrays;
-
 public class Main {
-
     // Function to print array
     static void printArray(int ans[], int n) {
         System.out.print("Array is: \n");
@@ -10,7 +8,6 @@ public class Main {
         }
         System.out.println();
     }
-
     // Function to reverse an array
     public static void reverseArray(int[] arr, int n) {
         int start = 0;
@@ -23,7 +20,6 @@ public class Main {
             end--;
         }
     }
-
     // Function to swap elements within a range
     public static void swap(int[] arr, int a, int b, int k) {
         for (int i = 0; i < k; i++) {
@@ -32,18 +28,15 @@ public class Main {
             arr[b + i] = temp;
         }
     }
-
     // Function for block swapping
     public static void BlockSwap(int[] arr, int start, int k, int n) {
         if (k == 0 || k == n) {
             return;
         }
-
         if (k == n - k) {
             swap(arr, start, start + n - k, k);
             return;
         }
-
         if (k < n - k) {
             swap(arr, start, start + n - k, k);
             BlockSwap(arr, start, k, n - k);
@@ -52,7 +45,6 @@ public class Main {
             BlockSwap(arr, start + n - k, 2 * k - n, k);
         }
     }
-
     public static void main(String[] args) {
         // Reverse an array
         int n = 5;
