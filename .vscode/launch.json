@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Harshad",
+      "request": "launch",
+      "mainClass": "Harshad",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "RemoveSpaces",
       "request": "launch",
       "mainClass": "RemoveSpaces",
