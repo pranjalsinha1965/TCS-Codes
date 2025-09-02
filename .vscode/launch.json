@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LinkedListUse",
+      "request": "launch",
+      "mainClass": "LinkedListUse",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "RemoveConsecutiveDuplicates",
+      "request": "launch",
+      "mainClass": "arraylist.RemoveConsecutiveDuplicates",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "ArrayListDemo",
+      "request": "launch",
+      "mainClass": "arraylist.ArrayListDemo",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "Harshad",
       "request": "launch",
       "mainClass": "Harshad",
