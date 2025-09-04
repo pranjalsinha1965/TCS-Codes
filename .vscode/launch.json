@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "patternFive",
+      "request": "launch",
+      "mainClass": "patterns.patternFive",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "patternFour",
+      "request": "launch",
+      "mainClass": "patterns.patternFour",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "patternThree",
+      "request": "launch",
+      "mainClass": "patterns.patternThree",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "patternTwo",
+      "request": "launch",
+      "mainClass": "patterns.patternTwo",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "LinkedListUse",
       "request": "launch",
       "mainClass": "linkedlist.LinkedListUse",
