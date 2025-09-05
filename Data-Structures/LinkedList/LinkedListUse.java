@@ -1,3 +1,5 @@
+package linkedlist;
+
 public class LinkedListUse {
 
     // Create LinkedList and return head

@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "patternOne",
+      "request": "launch",
+      "mainClass": "patterns.patternOne",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "patternFive",
       "request": "launch",
       "mainClass": "patterns.patternFive",

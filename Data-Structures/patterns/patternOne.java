@@ -1,7 +1,5 @@
 package patterns;
 import java.util.Scanner;
-
-// Skeleton 
 public class patternOne {
     public static void main(String[] args)
     {
