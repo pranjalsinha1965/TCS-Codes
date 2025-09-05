@@ -3,6 +3,90 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LargestOfNumbers",
+      "request": "launch",
+      "mainClass": "Arrays.LargestOfNumbers",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "InputOfArray2",
+      "request": "launch",
+      "mainClass": "Arrays.InputOfArray2",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "InputOfArray",
+      "request": "launch",
+      "mainClass": "Arrays.InputOfArray",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "BasicsArrays",
+      "request": "launch",
+      "mainClass": "Arrays.BasicsArrays",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "IsoscelesTriangle",
+      "request": "launch",
+      "mainClass": "patterns.IsoscelesTriangle",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "InvertedTriangle",
+      "request": "launch",
+      "mainClass": "patterns.InvertedTriangle",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "ReverseTriangle",
+      "request": "launch",
+      "mainClass": "patterns.ReverseTriangle",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "PatternReverse",
+      "request": "launch",
+      "mainClass": "patterns.PatternReverse",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "CharPattern2",
+      "request": "launch",
+      "mainClass": "patterns.CharPattern2",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "CharPattern1",
+      "request": "launch",
+      "mainClass": "patterns.CharPattern1",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "patternSeven",
+      "request": "launch",
+      "mainClass": "patterns.patternSeven",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "patternSix",
+      "request": "launch",
+      "mainClass": "patterns.patternSix",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "patternOne",
       "request": "launch",
       "mainClass": "patterns.patternOne",

@@ -1,6 +1,5 @@
 package patterns;
 import java.util.Scanner;
-
 public class patternThree {
     public static void main(String[] args)
     {

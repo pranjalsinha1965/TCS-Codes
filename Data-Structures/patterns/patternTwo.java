@@ -1,6 +1,5 @@
 package patterns;
 import java.util.Scanner;
-
 public class patternTwo {
     public static void main(String[] args)
     {

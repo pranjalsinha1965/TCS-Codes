@@ -11,9 +11,11 @@ public class patternFive {
         while (i <= n)
         {
             int j = 1;
+            int startingNumber = i;
             while (j <= i)
             {
-                System.out.print(j);  // print * without moving to next line
+                System.out.print(startingNumber);  // print * without moving to next line
+                startingNumber++;
                 j += 1;
             }
             System.out.println();  // move to next line after finishing one row
