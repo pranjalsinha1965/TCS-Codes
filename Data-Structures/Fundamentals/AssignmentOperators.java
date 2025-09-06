@@ -7,7 +7,6 @@ public class AssignmentOperators {
         // a ^= 1;
         // a <<= 1; leftshift operators
         // a >>= 1; rightshift operators
-        
         System.out.println(a);
     }
 }

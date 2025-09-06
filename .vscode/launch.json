@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Loop",
+      "request": "launch",
+      "mainClass": "Loop",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "Precedence",
+      "request": "launch",
+      "mainClass": "Precedence",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "BitwiseOperators",
       "request": "launch",
       "mainClass": "BitwiseOperators",
