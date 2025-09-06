@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BitwiseOperators",
+      "request": "launch",
+      "mainClass": "BitwiseOperators",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "IncrementDecrement",
+      "request": "launch",
+      "mainClass": "IncrementDecrement",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "PrimitiveAndNonPrimitives",
+      "request": "launch",
+      "mainClass": "Arrays.PrimitiveAndNonPrimitives",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "LargestOfNumbers",
       "request": "launch",
       "mainClass": "Arrays.LargestOfNumbers",
