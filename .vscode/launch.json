@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ReverseNumbers",
+      "request": "launch",
+      "mainClass": "ReverseNumbers",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "Abundant",
+      "request": "launch",
+      "mainClass": "Abundant",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "Loop",
       "request": "launch",
       "mainClass": "Loop",

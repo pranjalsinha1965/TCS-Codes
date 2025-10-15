@@ -1,7 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
 public class Fibonacci {
-    // Iterative method to print Fibonacci series
     public static void printFibonacciIterative(int n) {
         int a = 0, b = 1;
         System.out.println("Fibonacci series using iteration:");

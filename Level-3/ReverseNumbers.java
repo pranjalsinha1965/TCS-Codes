@@ -10,7 +10,6 @@ static private int Rev(int n)
 		rev = rev * 10 + d;
 		n = n / 10;
 	}
-
 	return rev;
 }
 public static void main(String[] args)
