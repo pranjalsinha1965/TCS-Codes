@@ -11,7 +11,7 @@ public class findNonRepeatingElements {
             }
             if (!chk) System.out.print(nums[i] + " ");
         }
-    }
+    }  
     public static void main(String[] args) {
         int nums[] = {1, 2, -1, 1, 3, 1};
         System.out.println("Non-repeating numbers are: ");
