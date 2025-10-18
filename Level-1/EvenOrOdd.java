@@ -8,7 +8,7 @@ public class EvenOrOdd {
         }
         else
         {
-            System.out.println(n + " is odd ");
+            System.out.println(n + " is odd ");  
         }
     }
     public static int remainder(int n)
