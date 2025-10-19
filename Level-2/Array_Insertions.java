@@ -5,7 +5,7 @@ static void insertatbegin(int[] arr,int n,int value)
     {
         arr[i+1]=arr[i];
     }
-    arr[0]=value;
+    arr[0]=value;    
 }
 
 public static void main(String args[])
