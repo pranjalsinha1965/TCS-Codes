@@ -7,7 +7,6 @@ public class StrongNumber {
            }
            return fact;
         }
-     
         //Function to compute sum of factorials
         static int Strong_No(int num) {
            int sum = 0;
@@ -20,7 +19,6 @@ public class StrongNumber {
            }
            return sum;
         }
-     
         public static void main(String[] args) {
      
            int number = 145;

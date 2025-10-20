@@ -9,7 +9,7 @@ public class Abundant{
       }
       sum-=n;
       if (sum > n) {
-        System.out.print("Abundant Number");
+        System.out.print("Abundant Number"); 
       } else {
         System.out.print("Not Abundant Number");
       }
