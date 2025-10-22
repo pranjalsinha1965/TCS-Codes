@@ -5,4 +5,7 @@
 // Provide a palindrome checker function using driver code.  
 // Make a java function to remove brackets. 
 // Remove special characters from the given string 
+// "a+((b-c)+d)"
+// "(((a-b))+c)"
+// "take12% *&u ^$#forward" Remove special characters from the string "take12% *&u ^$#forward
 
