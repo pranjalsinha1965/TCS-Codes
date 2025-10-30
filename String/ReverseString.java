@@ -17,7 +17,7 @@ public class ReverseString {
         System.out.print("The reversed string is- " + str);
     }
 }
-
+  
 // for shortcut refer this message
 
 // import java.util.*;
