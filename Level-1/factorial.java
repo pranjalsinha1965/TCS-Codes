@@ -4,7 +4,7 @@ public class factorial {
            throw new IllegalArgumentException("Factorial is not defined for negative numbers.");
        }
        if (X == 0 || X == 1) {
-           return 1;
+           return 1;   
        }
        return X * isFactorial(X - 1); // Recursive approach
    }
