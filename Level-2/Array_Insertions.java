@@ -2,12 +2,12 @@ public class Array_Insertions{
 static void insertatbegin(int[] arr,int n,int value)
 {
     for(int i=n-1;i>=0;i--)
-    {
+    {   
         arr[i+1]=arr[i];
     }
     arr[0]=value;    
 }
-
+    
 public static void main(String args[])
 {
     int n=8;
