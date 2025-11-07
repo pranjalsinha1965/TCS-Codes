@@ -1,4 +1,4 @@
-package String;
+    package String;
 public class RemoveCharacters   {
         public static String solve(String str, int n) {
           StringBuffer ans = new StringBuffer();
