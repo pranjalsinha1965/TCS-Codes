@@ -10,7 +10,7 @@ public class RemoveVowels{
         return count;
       }
       public static void main(String[] args) {
-        char[] str = "Take you forward ".toCharArray();
+        char[] str = "Take you forward".toCharArray();
         int count = removeSpaces(str);
         System.out.println(String.valueOf(str).subSequence(0, count));
       }
