@@ -1,4 +1,4 @@
-package DSA;
+package DSA.src.stack;
 public class StackCode {
 
 	public static void main(String[] args) {	

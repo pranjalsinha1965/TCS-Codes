@@ -1,4 +1,4 @@
-package DSA;
+package DSA.src.queue;
 public class QueueCode {
 
 	public static void main(String[] args) {

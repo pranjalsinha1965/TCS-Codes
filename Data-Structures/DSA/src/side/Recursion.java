@@ -1,4 +1,4 @@
-package DSA;
+package DSA.src.side;
 public class Recursion {
 
 	public static void main(String[] args) {

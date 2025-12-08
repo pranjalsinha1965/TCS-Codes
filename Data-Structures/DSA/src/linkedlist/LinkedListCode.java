@@ -1,5 +1,5 @@
 //import java.util.LinkedList;
-package DSA; 
+package DSA.src.linkedlist; 
 public class LinkedListCode {
 
 	public static void main(String[] args) {

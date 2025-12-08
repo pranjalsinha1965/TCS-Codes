@@ -1,7 +1,6 @@
-package DSA;
-public class LinearBinarySearch {
-
-	public static void main(String[] args) {
+package DSA.src.search;
+public class BinaryLinearCombined {
+    public static void main(String[] args) {
 
 //		int nums[]= {1,2,3,5,7,9,10,11,13};
 		int nums[]=new int[1000];
@@ -77,6 +76,6 @@ public class LinearBinarySearch {
 		}
 		return -1;
 	}
+    
 }
-
 

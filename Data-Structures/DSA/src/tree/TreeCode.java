@@ -1,4 +1,4 @@
-package DSA;
+package DSA.src.tree;
 public class TreeCode {
 
 	public static void main(String[] args) {

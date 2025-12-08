@@ -1,5 +1,4 @@
-package DSA;
-
+package DSA.src.sort;
 public class InsertionCode {
 
 	public static void main(String[] args) {

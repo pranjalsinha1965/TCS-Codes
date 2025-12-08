@@ -1,38 +1,33 @@
-package DSA;
-public class SelectionSort {
+package DSA.src.sort;
+public class BubbleSort {
 
 	public static void main(String[] args) {
 		
 		int nums[]= {6,5,2,8,9,4};
 		int size = nums.length;
 		int temp=0;
-		int minIndex=-1;
 		
 		System.out.println("Before Sorting");
 		for(int num : nums) {
 			System.out.print(num + " ");
 		}
 		
-		for(int i=0; i<size-1; i++)
+		for(int i=0;i<size;i++) 
 		{
-			minIndex=i;
-			for(int j=i+1; j<size ; j++)
+			for(int j=0;j<size-i-1;j++) 
 			{
-				if(nums[minIndex] > nums[j]) {
-					minIndex=j;
+				if(nums[j] > nums[j+1])
+				{
+					temp = nums[j];
+					nums[j] = nums[j+1];
+					nums[j+1] = temp;
 				}
 			}
-		
-			temp = nums[minIndex];
-			nums[minIndex] = nums[i];
-			nums[i] = temp;
-			
-			System.out.println();
-			for(int num : nums)
-			{
-				System.out.print(num + " ");
-			}
-		}	
+//			System.out.println();
+//			for(int num : nums) {
+//				System.out.print(num +" ");
+//			}
+		}
 		
 		
 		System.out.println();
@@ -40,7 +35,7 @@ public class SelectionSort {
 		for(int num : nums) {
 			System.out.print(num +" ");
 		}
-
+		
 	}
 
 }

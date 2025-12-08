@@ -1,4 +1,4 @@
-package DSA;
+package DSA.src.sort;
 public class QuickSort {
 	
 	public static void quickSort(int[] arr, int low, int high)
