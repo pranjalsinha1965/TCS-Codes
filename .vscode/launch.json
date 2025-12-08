@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "QuickSort",
+      "request": "launch",
+      "mainClass": "DSA.QuickSort",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
+      "name": "Recursion",
+      "request": "launch",
+      "mainClass": "DSA.Recursion",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "Automorphic",
       "request": "launch",
       "mainClass": "Automorphic",
