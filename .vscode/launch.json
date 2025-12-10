@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BinaryLinearCombined",
+      "request": "launch",
+      "mainClass": "DSA.src.search.BinaryLinearCombined",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "DSA.com.main.Main",
