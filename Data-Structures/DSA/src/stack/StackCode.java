@@ -1,12 +1,8 @@
 package DSA.src.stack;
 public class StackCode {
-
 	public static void main(String[] args) {	
-		
 		Stack nums = new Stack();
-		
 		nums.pop();
-		
 //		nums.push(10);
 //		nums.push(30);
 //		System.out.println(nums.pop());
@@ -15,25 +11,18 @@ public class StackCode {
 //		System.out.println(nums.peek());
 //		nums.push(50);
 //		nums.push(90);
-		
 		nums.printStack();	
 	}
 }
-
-
-class Stack{
-	
+class Stack{	
 	private int[] arr = new int[5];
 	int top;
 	int size;
-	
 	public Stack()
 	{
 		size = arr.length;
 		top = -1;
 	}
-	
-	
 	public void push(int data)
 	{
 //		top++;
@@ -42,8 +31,6 @@ class Stack{
 		else
 			System.out.println("Stack Overflow");
 	}
-	
-	
 	public int pop()
 	{
 		if(top > -1)
@@ -53,14 +40,10 @@ class Stack{
 		}
 		return 0;
 	}
-	
-	
 	public int peek()
 	{
 		return arr[top];
 	}
-	
-	
 	public void printStack()
 	{
 		for(int n: arr)
@@ -69,5 +52,4 @@ class Stack{
 		}
 		System.out.println();
 	}
-	
 }
