@@ -1,23 +1,14 @@
 package DSA.com.main;
-
-// Import ONLY the module (folder)
-import DSA.src.tree.*;
-
-// Inherit BinaryTree in Main
-public class Main extends BinaryTree {
-
-    public static void main(String[] args) {
-
-        // Object of the Main class (which inherits BinaryTree)
-        Main tree = new Main();
-
-        tree.insert(8);
-        tree.insert(7);
-        tree.insert(12);
-        tree.insert(15);
-        tree.insert(2);
-        tree.insert(5);
-
-        tree.preorder();  // inherited method
+import DSA.src.linkedlist.*;
+public class Main extends LinkedList{
+    public static void main(String[] args)
+    {
+        LinkedList nums = new LinkedList();
+        nums.add(5);
+        nums.add(9);
+        nums.add(6);
+        nums.addFirst(7);
+        nums.delete(9);
+        nums.printValues();
     }
 }
