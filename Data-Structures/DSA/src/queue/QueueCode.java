@@ -1,5 +1,6 @@
 package DSA.src.queue;
-public class QueueCode {
+// import DSA.src.queue.*;
+public class QueueCode extends MyQueue{
 
 	public static void main(String[] args) {
 		

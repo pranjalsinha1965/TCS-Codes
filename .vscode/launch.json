@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "QueueCode",
+      "request": "launch",
+      "mainClass": "DSA.src.queue.QueueCode",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "TreeCode",
       "request": "launch",
       "mainClass": "DSA.src.tree.TreeCode",
