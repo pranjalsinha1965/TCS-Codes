@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "rough",
+      "request": "launch",
+      "mainClass": "DSA.com.main.rough",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "QueueCode",
       "request": "launch",
       "mainClass": "DSA.src.queue.QueueCode",

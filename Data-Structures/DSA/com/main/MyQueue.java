@@ -1,9 +1,9 @@
-package DSA.src.queue;
-public class MyQueue {
+package DSA.com.main;
+public class MyQueue{
     private int front = 0;
     private int rear = -1;
     private int size = 0;
-    private int[] arr = new int[4];
+    private int arr[] = new int[4];
     public void enqueue(int data)
     {
         rear++;
@@ -11,7 +11,7 @@ public class MyQueue {
         size++;
     }
     public int dequeue()
-    {  
+    {
         int data = arr[front]++;
         front++;
         return data;

@@ -12,7 +12,7 @@ public class QueueCode extends MyQueue{
 		queue.enqueue(99);
 		
 		System.out.println(queue.dequeue());
-//		queue.enqueue(12);
+//		queue.enqueue(12);  
 		
 		queue.show();
 

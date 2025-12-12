@@ -15,15 +15,12 @@ public class LinkedListCode {
 		nums.printValues();
 	}
 }
-
 class Linkedlist
 {
 	nNode head = null;
-	
 	public void add(int data)
 	{
 		nNode newNode = new nNode(data);
-		
 		nNode current = head;
 		if(head == null)
 			head = newNode;

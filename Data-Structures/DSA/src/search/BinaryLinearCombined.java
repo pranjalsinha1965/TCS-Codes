@@ -1,12 +1,14 @@
 package DSA.src.search;
+import DSA.src.search.binarySearch;
+
 public class BinaryLinearCombined {
     public static void main(String[] args) {
 //		int nums[]= {1,2,3,5,7,9,10,11,13};  
 		int nums[]=new int[1000];
 		int target= 11;
 		int result1 = linearSearch(nums, target);
-//		int result2 = binarySearch(nums, target);
-//      int result2 = binarySearch(nums, target, 0, nums.length-1);
+		// int result2 = binarySearch(nums, target);
+		int resultArray = binarySearch(nums, target, 0, nums.length-1);
 		if(result1 != -1)
 			System.out.println("Element found at index: "+ result1);
 		else

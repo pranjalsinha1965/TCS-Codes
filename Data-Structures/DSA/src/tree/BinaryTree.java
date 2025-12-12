@@ -4,7 +4,7 @@ public class BinaryTree
 	Node root;	
 	public void insert(int data)
 	{
-		root = insertRec(root,data);
+		root = insertRec(root,data);   
 //		if(root == null)
 //			root = new Node(data);
 //		else if(data < root.data)
