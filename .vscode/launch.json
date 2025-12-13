@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "binarySearch",
+      "request": "launch",
+      "mainClass": "DSA.src.search.binarySearch",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "rough",
       "request": "launch",
       "mainClass": "DSA.com.main.rough",

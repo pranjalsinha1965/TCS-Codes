@@ -1,10 +1,9 @@
 package DSA.src.stack;
-
 public class Stack {
     private int[] arr = new int[5];
     int top;
     int size;
-    public Stack()
+    public Stack()  
     {
         size = arr.length;
         top = -1;
