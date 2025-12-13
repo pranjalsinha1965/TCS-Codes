@@ -13,3 +13,4 @@ public class SearchElement {
       System.out.print("The element is present in "+ans+" index");
     }
   }
+
