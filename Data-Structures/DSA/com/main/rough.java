@@ -3,13 +3,13 @@ import DSA.src.queue.CircularQueue;
 public class rough extends CircularQueue{
     public static void main(String args[])
     {
-    MyQueue queue = new MyQueue();
-    queue.enqueue(10);
-    queue.enqueue(5);
-    queue.enqueue(20);
-    queue.enqueue(55);
-    System.out.println(queue.dequeue());
-    queue.show();
+        MyQueue queue = new MyQueue();
+        queue.enqueue(10);
+        queue.enqueue(5);
+        queue.enqueue(20);
+        queue.enqueue(99);
+        System.out.println(queue.dequeue());
+        queue.show();
     }
 }
 class MyQueue {

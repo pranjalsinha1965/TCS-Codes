@@ -10,7 +10,6 @@ public class QueueCode {
         queue.show();
     }
 }
-
 class MyQueue {
     private int front = 0;
     private int rear = -1;
