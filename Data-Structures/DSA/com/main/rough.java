@@ -1,57 +1,37 @@
 package DSA.com.main;
-import DSA.src.queue.CircularQueue;
-public class rough extends CircularQueue{
+public class rough{
     public static void main(String args[])
     {
-        MyQueue queue = new MyQueue();
-        queue.enqueue(10);
-        queue.enqueue(5);
-        queue.enqueue(20);
-        queue.enqueue(99);
-        System.out.println(queue.dequeue());
-        queue.show();
-    }
-}
-class MyQueue {
-    private int front = 0;
-    private int rear = -1;
-    private int size = 0;
-    private int capacity = 4;
-    private int[] arr = new int[capacity];
-    public void enqueue(int data)
-    {
-        if(size == capacity)
+        int[] nums = {6, 5, 2, 8, 9, 4};
+        int size = nums.length;
+        int temp = 0;
+        System.out.println("Before sorting");
+        for(int num : nums)
         {
-            System.out.println("Queue Overflow");
-            return;
+            System.out.println(num + " ");
         }
-        rear++;
-        arr[rear] = data;
-        size++;
-    }
-    public int dequeue()
-    {
-        if(size==0)
+        for(int i=0; i<size; i++)
         {
-            System.out.println("Queue Underflow");
-            return -1;
-        }
-        int data = arr[front];
-        front++;
-        size--;
-        return data;
-    }
-    public void show()
-    {
-        if(size == 0)
-        {
-            System.out.println("Queue is empty");
-            return;
-        }
-        for(int i=front; i<size; i++)
-        {
-            System.out.println(arr[i] + " ");
+            for(int j=0; j<size - 1; j++)
+            {
+                if(nums[j] > nums[j+1])
+                {
+                    temp = nums[j];
+                    nums[j] = nums[j+1];
+                    nums[j+1] = temp;
+                }
+            }
+            System.out.println();
+            for(int num : nums)
+            {
+                System.out.println(num + " ");
+            }
         }
         System.out.println();
+        System.out.println("After sorting");
+        for(int num : nums)
+        {
+            System.out.println(num + " ");
+        }
     }
 }

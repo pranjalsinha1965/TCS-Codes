@@ -15,7 +15,7 @@ public class InsertionCode {
 		}
 		for(int num : arr)
 		{
-			System.out.print(num +" ");
+			System.out.println(num +" ");
 		}
 	}
-}
+}  
