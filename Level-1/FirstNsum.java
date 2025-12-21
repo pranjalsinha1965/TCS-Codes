@@ -14,3 +14,25 @@ public class FirstNsum{
   }
 } 
 
+// import java.util.ArrayList;
+
+// public class rough{
+//     public static int sum(int n)
+//     {
+//         int sum = 0;
+//         ArrayList<Integer> arr = new ArrayList<>();
+//         for(int i=0; i<n; i++)
+//         {
+//             arr.add(i+1);
+//         }
+//         for(int i=0; i<arr.size(); i++)
+//         {
+//             sum = arr.get(i);
+//         }
+//         return sum;
+//     }
+//     public static void main(String args[])
+//     {
+//         System.out.println(sum(5));
+//     }
+// }
