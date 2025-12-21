@@ -8,7 +8,7 @@ public class ReverseString {
         Stack<Character> stack = new Stack<Character>();
         for (int i = 0; i < str.length(); i++) {
             stack.push(str.charAt(i));
-        }
+        } 
         int i = 0;
         while (!stack.isEmpty()) { 
             reverseString[i++] = stack.pop();
