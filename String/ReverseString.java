@@ -79,3 +79,39 @@ public class ReverseString {
 //         System.out.println("Reversed (For Loop): " + reversed);
 //     }
 // }
+
+// import java.util.Stack;
+// import java.util.Scanner;
+
+// public class rough {
+
+//     static String reverse(String str) {
+//         Stack<Character> stack = new Stack<>();
+//         char[] reverseString = new char[str.length()];
+
+//         // Push characters
+//         for (int i = 0; i < str.length(); i++) {
+//             stack.push(str.charAt(i));
+//         }
+
+//         int i = 0;
+//         // Pop characters safely
+//         while (!stack.isEmpty()) {
+//             reverseString[i++] = stack.pop();
+//         }
+
+//         return new String(reverseString);
+//     }
+
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+
+//         System.out.print("Please enter your string: ");
+//         String str = scanner.nextLine();
+
+//         String reversedString = reverse(str);
+//         System.out.println("The reversed string is: " + reversedString);
+
+//         scanner.close();
+//     }
+// }
