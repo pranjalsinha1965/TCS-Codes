@@ -48,6 +48,3 @@
 // Insertion Sort: [12, 11, 13, 5, 6]
 // Quick Sort: [4, 6, 2, 5, 7, 9, 1, 3]
 
-public class rough{
-    
-}
