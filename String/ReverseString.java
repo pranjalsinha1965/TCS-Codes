@@ -1,6 +1,6 @@
 package String;
 import java.util.Stack;
-public class ReverseString {
+public class ReverseString {  
     // Driver code
     public static void main(String[] args) {
         String str = "HELLO";
