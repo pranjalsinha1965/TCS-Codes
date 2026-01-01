@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CircularQueue",
+      "request": "launch",
+      "mainClass": "DSA.src.queue.CircularQueue",
+      "projectName": "TCS-Codes_dccebba3"
+    },
+    {
+      "type": "java",
       "name": "test",
       "request": "launch",
       "mainClass": "DSA.com.main.test",
