@@ -11,3 +11,4 @@ public class LCM {
           System.out.print("The LCM of the two given numbers is "+lcm);  
   }
 }
+  

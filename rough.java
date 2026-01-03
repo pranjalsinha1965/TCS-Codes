@@ -48,3 +48,33 @@
 // Insertion Sort: [12, 11, 13, 5, 6]
 // Quick Sort: [4, 6, 2, 5, 7, 9, 1, 3]
 
+import java.util.Stack;
+import java.util.Scanner;
+
+public class rough{
+    public static String reverse(String str)
+    {
+        Stack<Character> stack = new Stack<Character>();
+        char[] reversedString = new char[str.length()]; 
+        for(int i=0; i<str.length(); i++)
+        {
+            stack.push(str.charAt(i));
+        }
+        int i=0;
+        while(!stack.isEmpty())
+        {
+            reversedString[i++] = stack.pop();
+        }
+        return new String(reversedString);
+    }
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your string: ");
+        String str = scanner.nextLine();
+        String reversedString = reverse(str);
+        System.out.println("The original string is: " + str);
+        System.out.println("Reversed String: " + reversedString);
+        scanner.close();
+    }
+}

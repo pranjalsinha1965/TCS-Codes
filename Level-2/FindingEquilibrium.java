@@ -13,7 +13,7 @@ class FindingEquilibrium {
       if (leftSum == rightSum) {
         return i;
       }
-    }
+    } 
     return -1;
   }
   public static void main(String[] args) {
